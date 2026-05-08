@@ -1,0 +1,17 @@
+{
+    "name": null,
+    "input_variables": [
+        "length",
+        "paper",
+        "style"
+    ],
+    "optional_variables": [],
+    "output_parser": null,
+    "partial_variables": {},
+    "metadata": null,
+    "tags": null,
+    "template": "\nYou are an expert research assistant.\n\nWrite a detailed answer on the topic:\n\nPaper Type: {paper}\nWriting Style: {style}\nLength: {length}\n\nInstructions:\n- Follow the selected paper type strictly\n- Use the given writing style\n- Maintain the required length\n- Make the answer clear, structured, and informative\n",
+    "template_format": "f-string",
+    "validate_template": true,
+    "_type": "prompt"
+}
