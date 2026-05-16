@@ -1,37 +1,39 @@
 # 🦜 LangChain Learning Project
 
-A hands-on learning repository to explore and practice **LangChain** concepts 
+A hands-on repository to explore and practice core **LangChain** concepts 
 including chatbots, prompt templates, structured output, and text splitting.
 
 ## 📁 Project Structure
 
-- `chatbot.py` — Simple chatbot using LangChain
-- `prompt_ui.py` — Prompt UI experiments
-- `prompt-template.py` — Prompt template practice
-- `structured-output/` — Structured output with Pydantic
-- `text-spliting/` — Text splitting techniques
+| File/Folder | Description |
+|---|---|
+| `chatbot.py` | Simple chatbot built with LangChain |
+| `prompt_ui.py` | Prompt UI experiments |
+| `prompt-template.py` | Prompt template practice |
+| `structured-output/` | Structured output using Pydantic |
+| `text-spliting/` | Text splitting techniques |
 
 ## 🛠️ Tech Stack
 
 - Python
 - LangChain
 - OpenAI / Hugging Face
-- LangSmith (for tracing)
+- LangSmith
 - Streamlit
 
 ## ⚙️ Setup
 
-1. Repo clone karo
+1. Clone the repository
    git clone https://github.com/Anamikakumari2005/lanchain-learning.git
 
-2. Dependencies install karo
+2. Install dependencies
    pip install -r requirements.txt
 
-3. .env file banao
+3. Create .env file
    cp .env.example .env
-   # Apni API keys daalo
+   # Add your API keys
 
-4. Run karo
+4. Run
    python chatbot.py
 
 ## 🔐 Environment Variables
